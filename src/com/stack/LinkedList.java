@@ -58,7 +58,7 @@ public class LinkedList<T> {
         return (firstElement == null) ? null : firstElement.data;
     }
 
-       public Node<T> pop() {
+    public Node<T> pop() {
         final Node<T> first = head;
         if (first == null)
             throw new NoSuchElementException();
