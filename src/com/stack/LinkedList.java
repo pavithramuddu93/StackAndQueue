@@ -4,7 +4,7 @@ import java.util.NoSuchElementException;
 public class LinkedList<T> {
     Node<T> head;
 
-        public void add(T value) {
+    public void add(T value) {
         Node<T> newNode = new Node<T>();
         newNode.data = value;
         newNode.next = null;
@@ -58,7 +58,7 @@ public class LinkedList<T> {
         return (firstElement == null) ? null : firstElement.data;
     }
 
-    public Node<T> pop() {
+       public Node<T> pop() {
         final Node<T> first = head;
         if (first == null)
             throw new NoSuchElementException();
