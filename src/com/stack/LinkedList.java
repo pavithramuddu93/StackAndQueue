@@ -4,7 +4,7 @@ import java.util.NoSuchElementException;
 public class LinkedList<T> {
     Node<T> head;
 
-        public void add(T value) {
+    public void add(T value) {
         Node<T> newNode = new Node<T>();
         newNode.data = value;
         newNode.next = null;
