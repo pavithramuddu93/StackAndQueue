@@ -8,7 +8,7 @@ public class Stack<T> {
         listObj.addAtStart(value);
     }
 
-    public void show() {
+        public void show() {
         listObj.show();
     }
 
@@ -16,7 +16,7 @@ public class Stack<T> {
         return listObj.peek();
     }
 
-        public Node<T> pop() {
+    public Node<T> pop() {
         return listObj.pop();
 
     }
